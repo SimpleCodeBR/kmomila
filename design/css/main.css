@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #eaeaea;
+	color: #333333;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.margin-32 {
+	margin-top: 32px;
+}
+
+.margin-32-right {
+	margin-right: 32px;
+}
+
+.margin-32-left {
+	margin-left: 32px;
+}
+
+.margin-80 {
+	margin-top: 80px;
+}
+
+.margin-120 {
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.background-white {
+	background-color: #ffffff;
+}
+
+.background-gray {
+	background-color: #eaeaea;
+}
+
+.container {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.login-container {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 80px;
+	background-color: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+		0px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+		0px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.login-form {
+	padding: 80px;
+}
+
+.login-image {
+	height: 864px;
+	width: 600px;
+	background: url('../assets/daisy.jpg') no-repeat center center;
+	border-radius: 0 16px 16px 0;
+}
+
+.logo {
+	width: 62px;
+	height: 62px;
+}
+
+input[type='text'],
+input[type='password'] {
+	width: 440px;
+	height: 48px;
+	border-radius: 8px;
+	border: 1px solid #999999;
+	padding-left: 16px;
+	margin-top: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.btn-primary {
+	height: 48px;
+	border-radius: 8px;
+	border: none;
+	background-color: #fabe0e;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 16px;
+	cursor: pointer;
+}
+
+.btn-secundary {
+	height: 48px;
+	border-radius: 8px;
+	border: solid 1px #333333;
+	background-color: #ffffff;
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 16px;
+	cursor: pointer;
+}
+
+.forgot {
+	display: flex;
+	justify-content: space-between;
+}
+
+.forgot-link {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fabe0e;
+}
+
+.menu {
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.active {
+	border-bottom: solid 2px #333333;
+	padding: 28px 0 26px 0;
+}
+
+.projects {
+	padding: 32px 120px 32px 120px;
+}
+
+.projects header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 16px;
+}
+
+.project-list img {
+	width: 288px;
+	height: 160px;
+	border-radius: 8px;
+}
+
+.project-list a {
+	cursor: pointer;
+	color: #333333;
+	text-decoration: none;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.title h2 {
+	margin-top: 8px;
+}
